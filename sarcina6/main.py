@@ -211,7 +211,6 @@ class Lab():
 
 
 if __name__ == '__main__':
-    k, i, j = 0, -1, -1
     a = Lab()
     a.read_file()
     a.ececution()
