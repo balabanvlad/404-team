@@ -1,0 +1,28 @@
+file1 = open("C:\\Users\\Admin\\Desktop\\hackaton ex 3\\originale.txt", "r")
+file2 = open("C:\\Users\\Admin\\Desktop\\hackaton ex 3\\really_shuffled.txt", "r")
+arr = []
+arr2 = []
+Lines = file1.readlines()
+Lines2 = file2.readlines()
+
+for line in Lines:
+    arr.append(list(line))
+
+for line2 in Lines2:
+    arr2.append(list(line2))
+
+k = 0
+count = 0
+result =[]
+
+
+for i in range(0, len(arr)):
+    count = 0
+    for j in range (6):
+        if arr[i][j] in arr2[k]:
+            count+=1
+            if count == 6:
+                result.append((arr[i]))
+                i = 0
+                k += 1
+print("Cuvintele sunt ", (result))
