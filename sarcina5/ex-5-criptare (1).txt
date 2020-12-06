@@ -1,0 +1,109 @@
+text = "o pace-ntre popor si el a pus, atene deci, schimbindu-i sortii pasul, si-avind ca Mentor chipul sau si glasul."
+
+
+text = list(text)
+for i in range(len(text)):
+    if text[i] == 'a':
+        text[i] = 'v';
+        continue
+
+    if text[i] == 'b':
+        text[i] = 'a';
+        continue
+
+    if text[i] == 'c':
+        text[i] = 'e';
+        continue
+
+    if text[i] == 'f':
+        text[i] = 'y';
+        continue
+
+    if text[i] == 'd':
+        text[i] = 'g';
+        continue
+
+    if text[i] == 'z':
+        text[i] = 'f';
+        continue
+
+    if text[i] == 'y':
+        text[i] = 'p';
+        continue
+
+    if text[i] == 'g':
+        text[i] = 'c';
+        continue
+
+    if text[i] == 'x':
+        text[i] = 'j';
+        continue
+
+    if text[i] == 'r':
+        text[i] = 'b';
+        continue
+
+    if text[i] == 'v':
+        text[i] = 'h';
+        continue
+
+    if text[i] == 'q':
+        text[i] = 'm';
+        continue
+
+    if text[i] == 'l':
+        text[i] = 'q';
+        continue
+
+    if text[i] == 'p':
+        text[i] = 'w';
+        continue
+
+    if text[i] == 's':
+        text[i] = 'x';
+        continue
+
+    if text[i] == 'u':
+        text[i] = 's';
+        continue
+
+    if text[i] == 'w':
+        text[i] = 't';
+        continue
+
+    if text[i] == 'e':
+        text[i] = 'z';
+        continue
+
+    if text[i] == 't':
+        text[i] = 'k';
+        continue
+
+    if text[i] == 'l':
+        text[i] = 'q';
+        continue
+
+    if text[i] == 'h':
+        text[i] = 'u';
+        continue
+
+    if text[i] == 'i':
+        text[i] = 'o';
+        continue
+
+    if text[i] == 'm':
+        text[i] = 'r';
+        continue
+
+    if text[i] == 'n':
+        text[i] = 'r';
+        continue
+
+    if text[i] == 'o':
+        text[i] = 'i';
+        continue
+
+string = ''
+for i in range (len(text)):
+    string += text[i]
+print(string)
